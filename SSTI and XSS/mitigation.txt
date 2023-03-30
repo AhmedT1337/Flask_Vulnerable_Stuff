@@ -1,0 +1,2 @@
+use render_template instead of render_template_string,
+and you can user the function escape if you don't use templates.
