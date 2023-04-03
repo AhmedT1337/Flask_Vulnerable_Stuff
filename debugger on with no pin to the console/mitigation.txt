@@ -1,0 +1,1 @@
+Either you set the debug mode to be turned off or set the WERKZEUG_DEBUG_PIN in the env to a random number
