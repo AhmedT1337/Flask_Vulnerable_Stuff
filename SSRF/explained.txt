@@ -1,0 +1,7 @@
+try to exploit this vulnerability in this code and turn it into XSS, SSTI and RCE if you can 😉
+
+the usage of the function render_template_string made this code vulnerable to SSTI, to make your flask code more secure use the function render_template instead
+
+the mitigation :
+- the best way to mitigate this code is to add a whitelist and test the input against it.
+- mainly just to check the url if it can be allowed or not
